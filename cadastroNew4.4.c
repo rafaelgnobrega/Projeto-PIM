@@ -84,13 +84,13 @@ void cadastro()
    
     do{
         printf("\t\t-----------------------------------------------------------\n");
-        printf("\t\t|      CADASTRAMENTO DE USUÁRIOS NO SISTEMA               |\n");
+        printf("\t\t|      CADASTRAMENTO DE USUÁRIOS NO SISTEMA                 |\n");
         printf("\t\t|-----------------------------------------------------------|\n");
-        printf("\t\t|      ESCOLHA ABAIXO O TIPO DE USUÁRIOS QUE IRA CADASTRAR|\n");
+        printf("\t\t|      ESCOLHA ABAIXO O TIPO DE USUÁRIOS QUE IRA CADASTRAR  |\n");
         printf("\t\t|-----------------------------------------------------------|\n");
         printf("\t\t|       1 - CADASTRO DE ATLETAS                             |\n");
         printf("\t\t|-----------------------------------------------------------|\n");
-        printf("\t\t|       2 - CADASTRO DE OUTROS USUÁRIOS                   |\n");
+        printf("\t\t|       2 - CADASTRO DE OUTROS USUÁRIOS                     |\n");
         printf("\t\t-------------------------------------------------------------\n\n");
         printf("Opção Escolhida: ");
         scanf("%d",&tipo);
@@ -780,6 +780,7 @@ void quadro_modalidade()
     } while(ret != 2);
 
 }
+
 void quadro_geral()
 {
     int c;
